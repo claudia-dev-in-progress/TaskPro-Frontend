@@ -1,0 +1,51 @@
+.mainDashboard {
+  display: flex;
+  justify-content: center;
+  overflow-x: auto;
+  align-items: flex-start;
+}
+
+.iconPlusBlack {
+  display: none;
+}
+
+.mainDashboardButton:hover .iconPlusWhite {
+  display: none;
+}
+
+.mainDashboardButton:hover .iconPlusBlack {
+  display: inline-block;
+}
+
+.iconPlus {
+  stroke: #000;
+  fill: #fff;
+  width: 28px;
+  height: 28px;
+}
+
+@media (max-width: 375px) {
+  .mainDashboardButton.mainDashboardButton {
+    padding: 10px 39px;
+    font-size: 12px;
+  }
+  .iconPlus {
+    width: 22px;
+    height: 22px;
+  }
+}
+
+@media (min-width: 768px) {
+  .mainDashboard {
+    justify-content: flex-start;
+  }
+  .mainDashboardButton.mainDashboardButton {
+    margin-left: 32px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .mainDashboard {
+    margin-left: 277px;
+  }
+}

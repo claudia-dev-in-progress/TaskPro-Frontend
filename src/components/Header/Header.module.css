@@ -1,0 +1,14 @@
+.themeHeader {
+  position: absolute;
+  right: 150px;
+}
+
+.userText {
+  margin-right: 160px;
+  width: auto;
+
+  font-family: Poppins;
+  font-size: 14px;
+  letter-spacing: 0.7;
+  font-weight: 500;
+}

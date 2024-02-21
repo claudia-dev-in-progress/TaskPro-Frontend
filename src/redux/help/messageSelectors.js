@@ -1,0 +1,1 @@
+export const selectSendMessage = state => state.message

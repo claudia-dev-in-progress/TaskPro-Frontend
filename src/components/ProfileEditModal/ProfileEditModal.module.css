@@ -1,0 +1,9 @@
+.buttonAdd {
+  width: 24px;
+  height: 24px;
+  background: #bedbb0;
+  position: absolute;
+  margin-left: 157px;
+  margin-top: -15px;
+  border-radius: 5px;
+}

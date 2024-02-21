@@ -1,0 +1,97 @@
+.modalBackground {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: transparent;
+
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.modalContainer {
+  width: 335px;
+  min-height: 221px;
+
+  background-color: #161616;
+  box-sizing: border-box;
+  border-radius: 8px;
+  border: 1px solid rgba(190, 219, 176, 0.5);
+}
+
+.titleBox h5 {
+  color: #fff;
+
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: -0.36px;
+}
+
+.iconClose,
+.iconPlus {
+  width: 28px;
+  height: 28px;
+}
+
+/* afisare iconPlusWhite la hover  */
+
+.iconPlusWhite {
+  display: none;
+}
+
+.addColumnBtn:hover .iconPlusBlack {
+  display: none;
+}
+
+.addColumnBtn:hover .iconPlusWhite {
+  display: inline-block;
+}
+
+.closeBtnBox {
+  display: flex;
+  justify-content: flex-end;
+}
+.closeBtn {
+  border: none;
+  margin-top: 10px;
+}
+
+.body {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  padding-left: 16px;
+}
+
+.addColumnBtn {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  justify-content: center;
+
+  background-color: #bedbb0;
+  border-radius: 8px;
+  padding: 10px 0 10px 0;
+  width: 287px;
+
+  color: #161616;
+  text-transform: none;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: -0.28px;
+}
+.addBtnBox {
+  margin-bottom: 24px;
+}

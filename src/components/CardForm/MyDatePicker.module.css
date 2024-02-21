@@ -1,0 +1,24 @@
+.deadline {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  color: #bedbb0;
+}
+
+.myDatePickerStyle .react-datepicker__header {
+  background-color: blue !important;
+}
+
+.exampleCustomInput {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+  cursor: pointer;
+  color: #bedbb0;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 21px;
+  text-align: center;
+}
